@@ -5,11 +5,11 @@ void main()
   int a1[50][50],b1[50][50],c1[50][50],i,j,n;
   
        printf("\n\nAddition of two Matrices :\n");
-       printf("------------------------------\n");  
+        
         printf("Input the size of the square matrix (less than 5): ");
        scanf("%d", &n); 
   
-    /* Stored values into the array*/
+    
        printf("Input elements in the first matrix :\n");
        for(i=0;i<n;i++)
         {
@@ -44,7 +44,7 @@ void main()
       for(j=0;j<n;j++)
       printf("%d\t",b1[i][j]);
     }
-/* calculate the sum of the matrix */   
+  
    for(i=0;i<n;i++)
        for(j=0;j<n;j++)
             c1[i][j]=a1[i][j]+b1[i][j];
@@ -54,5 +54,5 @@ void main()
        for(j=0;j<n;j++)
             printf("%d\t",c1[i][j]);
    }
-   printf("\n\n");
+   printf("\n");
 }

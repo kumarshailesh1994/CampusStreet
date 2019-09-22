@@ -1,6 +1,5 @@
 
 #include <stdio.h>
-#include<stdio.h>>
 #define MAX_SIZE 100
 
 int main()
