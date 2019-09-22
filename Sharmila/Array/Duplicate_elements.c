@@ -6,7 +6,7 @@ int main()
     int i, j, size, count = 0;
     printf("Enter size of the array : ");
     scanf("%d", &size);
-    printf("Enter elements in array : ");
+    printf(" elements in array : ");
     for(i=0; i<size; i++)
     {
         scanf("%d", &arr[i]);
@@ -18,7 +18,7 @@ int main()
             if(arr[i] == arr[j])
             {
                 count++;
-                break;
+               
             }
         }
     }

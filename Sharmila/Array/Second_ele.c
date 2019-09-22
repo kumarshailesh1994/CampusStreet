@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <limits.h> // For INT_MIN
-
-#define MAX_SIZE 1000     // Maximum array size 
 
 int main()
 {
@@ -17,7 +14,7 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    max1 = max2 = INT_MIN;
+    max1 = max2 = 0;
 
 
     
