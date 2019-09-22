@@ -4,10 +4,10 @@ int main()
 {
   int arr[10], i, j, Size, Count = 0;
   
-  printf("\n  Number of elements in an array  :   ");
+  printf("\nPlease enter  Number of elements in an array  :   ");
   scanf("%d", &Size);
   
-  printf("\n %d elements of an Array  :  ", Size);
+  printf("\n %dPlease enter elements of an Array  :  ", Size);
   for (i = 0; i < Size; i++)
   {
       scanf("%d", &arr[i]);
