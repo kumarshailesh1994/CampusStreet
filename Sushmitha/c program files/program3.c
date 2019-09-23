@@ -1,25 +1,47 @@
 //3. write a program in c to count a total number of duplicate elements in an array
 
 #include <stdio.h>
-int main()
+void main()
 {
-	int arr[5], i, j, Count = 0;
-    printf("Enter 5 element of an array : \n");
-	for (i = 0; i < 5; i++)
-	{
-    	scanf("%d", &arr[i]);
-   	}
-	for (i = 0; i < 5; i++)
-	{
-		for(j = i + 1; j < 5; j++)
-		{
-    		if(arr[i] == arr[j])
-    		{
-    			Count++;
-				break;
+        int arr1[100];
+	int arr2[100];
+	int arr3[100];
+        int n,m=1,count=0;
+        int i, j;	
+	
+       printf("enter the number of elements to be stored in the array :");
+       scanf("%d",&n);
+   
+       printf("enter %d elements in the array :\n",n);
+       for(i=0;i<n;i++)
+        {
+	      printf("element - %d : ",i);
+	      scanf("%d",&arr1[i]);
+	    }
+
+		for(i=0;i<n; i++)
+        {
+		arr2[i]=arr1[i];
+		arr3[i]=0;
+        }
+
+	for(i=0;i<n; i++)
+        {
+		for(j=0;j<n;j++)
+			{
+				if(arr1[i]==arr2[j])
+				{
+				arr3[j]=m;
+				m++;
+				}
 			}
-		}
-	}
- 	printf("\n Total Number of Duplicate Elements are = %d ", Count);
- 	return 0;
+			m=1;
+        }		
+
+   for(i=0; i<n; i++)
+    {
+      if(arr3[i]==2){count++;}  
+    }
+      printf("total number of duplicate elements found in the array is: %d \n", count);
+    
 }
