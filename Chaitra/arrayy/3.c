@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main()
 {
-    int arr[100]; i, j, n, count = 0;
+    int arr[100] ,i=0, j, n, count = 0;
     printf("Enter size of the array : ");
     scanf("%d", &n);
     printf("Enter elements of an array : ");
