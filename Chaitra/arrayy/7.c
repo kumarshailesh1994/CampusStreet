@@ -38,6 +38,6 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    senlargest(arr, n); 
+    seclargest(arr, n); 
     return 0; 
 } 
