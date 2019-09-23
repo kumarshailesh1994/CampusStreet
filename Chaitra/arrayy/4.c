@@ -13,7 +13,7 @@ int main() {
     printf("Unique Elements are\n");
     for(i = 0; i < n; i++) {
     for (j=0; j<i; j++){
-       if (array[i] == arr[j]){
+       if (arr[i] == arr[j]){
           break;
 	}
     }
