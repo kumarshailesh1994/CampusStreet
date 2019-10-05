@@ -1,0 +1,140 @@
+.read_more{
+    list-style:none;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    word-spacing: 1px;
+    text-decoration: none;
+    padding: 5px 10px;
+    text-align: center;
+    border: 2px solid rgb(147,112,219);
+    color: rgb(147,112,219);
+    }
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 35px;
+    position: "relative";
+ }
+ h2:before
+ {
+     content:"";
+     display: inline-block;
+     width: 50px;
+     height: 2px;
+     position:absolute;
+     left:0;
+     background: rgb(147,112,219);
+     margin-left: 50.5%;
+     top:8%;
+ }
+ h2:after
+ {
+     content:"";
+     display: block;
+     width: 50px;
+     height: 2px;
+     position:absolute;
+     background:rgb(147,112,219);
+     right:0;
+     margin-right: 50.5%;
+     top:8%;
+     }
+ 
+.diamond
+{
+width:5px;
+height:5px;
+transform:translate(-50%,-50%);
+transform: rotate(-45deg);
+transform-origin: 0 100%;
+border: 2px solid rgb(147,112,219) ;
+color: #fff;
+position: sticky;
+top: -20%;
+left:50%;
+}
+
+.design
+{
+   width:100%;
+ margin-top:100px;
+
+   
+}
+.design ul,.design2 ul {
+   
+    margin-left: -10px;
+    text-align: center;
+    list-style: none;    }
+
+    .design ul li,.design2 ul li{
+        display: inline-block;
+        width: 50px;
+        height:50px;
+        text-align: center;
+        background:rgb(147,112,219) ;
+        border-radius: 100%;
+        margin:-200px 150px;
+        
+    }
+    .design ul li a,.design2 ul li a{
+        display:block;
+        color:#fff;
+        font-size:50px;
+        margin: 10px;
+        
+    }
+    
+    .phone,.like,.settings,.logo,.contact
+    {
+        height: 30px;
+        width: auto;
+        color: #fff;
+    }
+    .content .content2{
+        width:100%;
+        height: auto;
+       
+        
+    }
+    .content ul,.content2 ul {
+        
+    text-align: center;
+    list-style: none; 
+
+    }
+    .content ul li,.content2 ul li
+    {
+        display: inline-block;
+        width: 300px;
+        height:70px;
+        text-align: center;
+       margin:-150px 20px;
+      
+    }
+    .design2 ul
+    {
+        margin-top: 100px;
+
+    }
+    .content2 ul,.content ul
+    {
+        margin-top:170px;
+    }
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+    }
+    
+    
+    
+
+
+
+
+
+
